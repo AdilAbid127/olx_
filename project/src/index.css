@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.category-card:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+}
+
+.navbar-brand:hover {
+  color: #ff6b35 !important;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-primary {
+  background-color: #002f34;
+  border-color: #002f34;
+}
+
+.btn-primary:hover {
+  background-color: #004d54;
+  border-color: #004d54;
+}
+
+.text-primary {
+  color: #002f34 !important;
+}
+
+.bg-primary {
+  background-color: #002f34 !important;
+}
